@@ -100,7 +100,7 @@ export default function ContactSection() {
 
           {/* ================= TITLE ================= */}
           <h3 className="text-2xl font-bold mb-2">
-            Hubungi Saya
+            Contact Me
           </h3>
 
           <p className="text-[12px] text-white/45 mb-6">
