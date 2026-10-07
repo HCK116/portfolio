@@ -848,36 +848,24 @@ export default function About() {
   ======================================================= */
 
   const stats = [
-    {
-      icon: <Code size={20} />,
+  {
+    icon: <Code size={16} />,
+    value: "3",
+    title: "PROJECTS",
+  },
 
-      value:
-        String(projectCount),
+  {
+    icon: <Award size={16} />,
+    value: "2",
+    title: "CERTIFICATES",
+  },
 
-      title: "PROJECTS",
-    },
-
-    {
-      icon: <Award size={20} />,
-
-      value:
-        String(certificateCount),
-
-      title: "CERTIFICATES",
-    },
-
-    {
-      icon: <Globe size={20} />,
-
-      value: String(
-        projectCount +
-          certificateCount
-      ),
-
-      title:
-        "COMPLETED WORKS",
-    },
-  ];
+  {
+    icon: <Globe size={16} />,
+    value: "4",
+    title: "EXPERIENCE",
+  },
+];
 
   /* =======================================================
      RETURN
@@ -1137,7 +1125,7 @@ export default function About() {
               {/* DOWNLOAD CV */}
 
               <a
-                href="#"
+                href="/assets/Hans_Christian_Kosasih_CV.pdf"
 
                 target="_blank"
 
